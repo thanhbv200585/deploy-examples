@@ -21,3 +21,6 @@ venv.bak/
 **/hummingbot_files/*
 
 **/.DS_Store
+
+# Ignore all SQL files in the data directory
+multiple_bots_setup_gateway_dashboard_broker/instances/bot_1/data/*.sqlite
